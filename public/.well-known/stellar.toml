@@ -1,7 +1,11 @@
 # XEVA Stellar asset metadata
-# Hosted at: https://your-domain.com/.well-known/stellar.toml
+# Hosted at: https://xeva-project.vercel.app/.well-known/stellar.toml
 
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GDM2H5BOBSX42VI2MSA75LPX7PQZON5BKZGN4IQQGPHQE5AVLYB5UXRP"
+]
 
 [[CURRENCIES]]
 code="XEVA"
