@@ -9,4 +9,5 @@ issuer="GDM2H5BOBSX42VI2MSA75LPX7PQZON5BKZGN4IQQGPHQE5AVLYB5UXRP"
 display_decimals=7
 name="XEVA"
 desc="A community-led Stellar asset for fast, borderless value."
+image="https://xeva-project.vercel.app/xeva-logo.svg"
 status="live"

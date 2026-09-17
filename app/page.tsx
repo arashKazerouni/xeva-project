@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main>
       <nav className="nav shell">
-        <a className="brand" href="#top" aria-label="XEVA home"><span className="brand-mark"><i /></span><span>XEVA</span></a>
+        <a className="brand" href="#top" aria-label="XEVA home"><img className="brand-logo" src="/xeva-logo.svg" alt="" width="24" height="24" /><span>XEVA</span></a>
         <div className={`nav-links ${menuOpen ? "is-open" : ""}`}>
           <a href="#why" onClick={() => setMenuOpen(false)}>Why XEVA</a>
           <a href="#how" onClick={() => setMenuOpen(false)}>How it works</a>
@@ -54,7 +54,7 @@ export default function Home() {
 
       <section className="get-section shell" id="get-xeva"><div className="get-panel"><div><div className="section-kicker">03 / Your next move</div><h2>Ready when<br /><em>you are.</em></h2><p>Get to know XEVA and join the movement toward more accessible value.</p></div><div className="get-actions"><a className="button button-light" href="https://stellar.expert/explorer/public/asset/XEVA-GDM2H5BOBSX42VI2MSA75LPX7PQZON5BKZGN4IQQGPHQE5AVLYB5UXRP" target="_blank" rel="noreferrer">View on Stellar Expert <ExternalLink size={16} /></a><button className="issuer-button" onClick={copyIssuer}><span>{copied ? "Issuer copied" : "Copy issuer address"}</span>{copied ? "✓" : <Copy size={15} />}</button></div></div></section>
 
-      <footer className="footer shell"><a className="brand" href="#top"><span className="brand-mark"><i /></span><span>XEVA</span></a><p>Designed for forward motion.</p><span className="footer-meta">XEVA / STELLAR ASSET / 2024—∞</span></footer>
+      <footer className="footer shell"><a className="brand" href="#top"><img className="brand-logo" src="/xeva-logo.svg" alt="" width="24" height="24" /><span>XEVA</span></a><p>Designed for forward motion.</p><span className="footer-meta">XEVA / STELLAR ASSET / 2024—∞</span></footer>
     </main>
   )
 }

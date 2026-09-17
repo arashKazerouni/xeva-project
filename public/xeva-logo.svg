@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">XEVA logo</title>
+  <desc id="desc">A dark circular mark with an orange signal core.</desc>
+  <circle cx="32" cy="32" r="29" fill="#111113" stroke="#f0eee9" stroke-width="2"/>
+  <circle cx="32" cy="32" r="11" fill="#ff6338"/>
+  <circle cx="32" cy="32" r="5" fill="#f0eee9"/>
+  <path d="M32 3v10M32 51v10M3 32h10M51 32h10" stroke="#a89dfc" stroke-width="2" stroke-linecap="round"/>
+</svg>
