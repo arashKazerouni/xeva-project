@@ -9,7 +9,7 @@ ACCOUNTS=[
 
 [[CURRENCIES]]
 code="XEVA"
-issuer="GDM2H5BOBSX42VI2MSA75LPX7PQZON5BKZGN4IQQGPHQE5AVLYB5UXRP"
+issuer="GCADAZ22Y6EUC575N4SRMGYVXTODH5MOHM3EVHQNC7AZ6PTZNJI7SXRP"
 display_decimals=7
 name="XEVA"
 desc="A community-led Stellar asset for fast, borderless value."
