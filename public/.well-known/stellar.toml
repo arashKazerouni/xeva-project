@@ -1,0 +1,12 @@
+# XEVA Stellar asset metadata
+# Hosted at: https://your-domain.com/.well-known/stellar.toml
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+[[CURRENCIES]]
+code="XEVA"
+issuer="GDM2H5BOBSX42VI2MSA75LPX7PQZON5BKZGN4IQQGPHQE5AVLYB5UXRP"
+display_decimals=7
+name="XEVA"
+desc="A community-led Stellar asset for fast, borderless value."
+status="live"
